@@ -369,14 +369,9 @@ See [DEVELOPMENT.md](docs/guides/DEVELOPMENT.md) for contribution guidelines.
 
 This project is licensed under the MIT License.
 
-## Version History
+## Release History
 
-### v1.0.0 - 2025-11-12
-- Initial project setup with .NET Aspire 13.0.0
-- Blazor Web frontend with server-side rendering
-- Weather API service
-- Redis caching integration
-- Comprehensive documentation structure
+See [GitHub Releases](../../releases) for detailed version history, changelogs, and repository snapshots.
 
 ---
 
