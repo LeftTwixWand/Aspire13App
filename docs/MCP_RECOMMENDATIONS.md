@@ -24,12 +24,27 @@ This document tracks MCP (Model Context Protocol) servers that are useful for th
 - Getting official code samples for integrations
 - Staying current with .NET 10 APIs
 
-**Example Usage:**
-```
-"Search for .NET Aspire PostgreSQL integration documentation"
-"Fetch the complete guide for Azure Container Apps deployment"
-"Find code samples for Entity Framework Core migrations"
-```
+### ✅ GitHub MCP
+
+**Status:** Configured (Pending Restart)
+**Server:** `github`
+**Setup:** See [GITHUB_MCP_SETUP.md](GITHUB_MCP_SETUP.md) for activation
+
+**Available Tools:**
+1. `create_release` - Create GitHub releases
+2. `get_repository` - Get repository information
+3. `list_commits` - List commit history
+4. `create_issue` - Create issues
+5. `create_pull_request` - Create PRs
+6. `get_file_contents` - Read repository files
+7. `search_code` - Search code in repositories
+
+**Use Cases:**
+- Creating releases with rich markdown
+- Managing issues and pull requests
+- Querying commit history
+- Searching repository code
+- Automating repository operations
 
 ---
 
@@ -37,7 +52,7 @@ This document tracks MCP (Model Context Protocol) servers that are useful for th
 
 ### 🔧 GitHub MCP (Highly Recommended)
 
-**Status:** ⚠️ Not Configured
+**Status:** ✅ Configured (Pending Claude Code Restart)
 **Priority:** **HIGH**
 
 **Why We Need It:**
