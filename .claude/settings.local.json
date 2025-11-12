@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:code.claude.com)",
+      "WebSearch",
+      "mcp__microsoft-learn__microsoft_docs_search",
+      "mcp__microsoft-learn__microsoft_code_sample_search",
+      "Bash(dotnet:*)",
+      "Bash(docker --version:*)",
+      "Bash(dir:*)",
+      "Bash(tree:*)",
+      "mcp__microsoft-learn__microsoft_docs_fetch",
+      "WebFetch(domain:devblogs.microsoft.com)",
+      "WebFetch(domain:aspire.dev)",
+      "Bash(aspire --version:*)",
+      "Bash(mkdir:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
